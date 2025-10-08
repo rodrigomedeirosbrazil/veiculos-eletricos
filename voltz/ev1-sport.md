@@ -56,6 +56,33 @@ A manutenção de uma moto elétrica é mais simples do que a de uma moto a comb
 * **Limpeza:** Pode ser lavada, mas com cuidado. Evite jatos de água de alta pressão diretamente no motor, bateria e componentes elétricos.
 
 ---
+## 🔒 Segurança e Adaptações Eletrônicas (Alarme Bluetooth)
+
+O vídeo [ADAPTANDO ALARME NA VOLTZ EVS! - LIGANDO A MOTO PELO BLUETOOTH](https://www.youtube.com/watch?v=rC7xJdZWgXE&t=123s) detalha a instalação de um alarme com conectividade **Bluetooth**, que permite controlar a Voltz EV1 Sport/EVS através de um aplicativo de celular.
+
+### Funcionalidades do Alarme Adaptado
+
+* **Keyless por Proximidade:** A moto pode ligar e desligar automaticamente ao detectar a aproximação ou afastamento do celular via Bluetooth.
+* **Partida Remota:** Permite ligar/desligar a moto diretamente pelo aplicativo.
+* **Alarme Silencioso (Mute):** Opção para desativar o som da sirene da moto (útil em garagens) e transferir o alerta de tentativa de furto para o celular.
+* **Bloqueio de Roda:** Trava a roda em caso de acionamento do alarme, impedindo que a moto seja empurrada.
+* **Desativação de Chave:** Pode-se configurar o alarme para que a ignição só possa ser acionada via celular ou botão Start/Stop, desabilitando o uso da chave física.
+
+### ⚠️ ALERTA DE COMPATIBILIDADE CRÍTICO
+
+A instalação e o funcionamento completo deste sistema sem a necessidade de desbloqueio de software adicional se aplica **apenas aos modelos Voltz EVS/EV1 Sport dos anos 2021 e 2022**.
+
+* **Modelos 2021 e 2022:** A instalação funciona perfeitamente, sem a necessidade de desbloqueio da T-Box.
+* **Modelos 2023 e EVS Work:** A instalação **não funcionará** sem um procedimento de desbloqueio da T-Box, que pode exigir serviço técnico.
+
+### Instalação (Resumo da Fiação)
+
+A ligação é feita no chicote do alarme original da moto (localizado sob os plásticos laterais). O esquema de cores geralmente segue o padrão "cor com cor", com a seguinte exceção e pontos de atenção:
+
+* O fio **Laranja** do alarme deve ser ligado ao fio **Vermelho com Preto** (fio de duas cores) do chicote da moto.
+* Os fios **Marrom** e **Amarelo** do alarme adaptado geralmente **não são utilizados**.
+
+---
 ## ⚙️ Peças Compatíveis e Adaptações (Dicas da Comunidade)
 
 A busca por peças genéricas ou adaptáveis é comum para reduzir custos e aumentar a facilidade de encontrar substitutos no mercado.
