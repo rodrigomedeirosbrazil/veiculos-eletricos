@@ -103,4 +103,15 @@ O remapeamento permite ajustar a performance da moto além das configurações d
 | **Amperagem Máxima (Corrente do Motor)** | Aumentar o valor (por exemplo, de 80A para 120A). | **Aumenta o torque e a força** de saída (aceleração). *Aumenta o consumo e o aquecimento do motor* [00:03:14]. |
 | **Modos de Pilotagem (1, 2, 3)** | Definir a porcentagem de RPM e Amperagem Máxima para cada modo. | Permite customizar a potência e a velocidade de cada modo. Ex: Modo 1 (Econômico) pode ser reconfigurado para ser mais rápido ou mais econômico [00:04:43]. |
 | **Freio Regenerativo (EBS)** | Aumentar a Amperagem Máxima de Recarga (valor de EBS). | Aumenta a intensidade da frenagem regenerativa. **Reduz o desgaste das pastilhas** e carrega a bateria mais rapidamente durante a desaceleração [00:08:02]. |
-| **Piloto Automático (Cruise Control)** | Mapear a função "Cruise" (Piloto Automático) para um botão Funck (Geralmente o botão "Ré") [00:
+| **Piloto Automático (Cruise Control)** | Mapear a função "Cruise" (Piloto Automático) para um botão Funck (Geralmente o botão "Ré"). | Ativa o modo de manutenção de velocidade. |
+
+---
+## 🔌 Recursos Técnicos e Diagramas
+
+O diagrama elétrico (ou esquema de fiação) é um recurso essencial para manutenção avançada, diagnóstico de falhas elétricas e instalações de acessórios.
+
+### Diagrama Elétrico EV1 Sport (PDF)
+
+* **Link para o Diagrama:** [Diagrama Elétrico Voltz EV1 Sport](https://pt.scribd.com/document/897866750/Diagrama-Ev1-Sport)
+
+**Atenção:** Este diagrama pode ser específico para determinadas versões da scooter. Use-o com cautela e verifique as cores dos fios na sua moto antes de realizar qualquer modificação.
