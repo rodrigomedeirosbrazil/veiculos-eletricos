@@ -1,46 +1,78 @@
-[![Teste rápido Voltz EV1 Sport: agora vale a pena ter uma moto elétrica?](https://images.openai.com/thumbnails/url/DkenDHicu5meUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw7KdTfw9dRNL44HkkWF5gUuAbnlZeYBFk5e4UWWQVk-zhbllpURHuUBloFqxbaGBgD9iCR5)](https://insideevs.uol.com.br/reviews/614312/avaliacao-voltz-ev1-sport/?utm_source=chatgpt.com)
+# Voltz EV1 Sport - Guia Completo
 
-Ótimo — juntei informações públicas e reviews sobre a **Voltz EV1 Sport** e organizei um resumo estruturado que você pode usar como base para o seu `moto.md`. Abaixo vem um **resumo executivo** seguido de uma **ficha técnica + notas de usuário / pontos importantes**. As fontes principais estão citadas nos pontos mais relevantes.
-
----
-
-# Voltz EV1 Sport — Resumo inicial
-
-## Resumo executivo
-
-A Voltz EV1 Sport é um scooter elétrico urbano da Voltz com motor elétrico Bosch/3 kW (≈4 cv) com pico em torno de 4,5 kW (6,1 cv), projetada para uso em cidade com opções de 1 ou 2 baterias removíveis (troqueáveis) para aumentar autonomia. Top speed e performance são adequadas ao trânsito urbano; há relatos de problemas de bateria/entrega em alguns lotes e muitos reviews de proprietários descrevendo custos de manutenção e experiência prática. ([InsideEVs Brasil][1])
+Este guia reúne as principais informações técnicas, dicas de uso e manutenção, além de dados sobre peças compatíveis (genéricas ou adaptáveis) para a scooter elétrica **Voltz EV1 Sport**.
 
 ---
+## ⚡ Ficha Técnica (Resumo)
 
-## Ficha técnica (compilado)
-
-> **Modelo:** Voltz EV1 Sport
-> **Motor:** ~3 kW nominal (≈4,07 cv), pico ~4,5 kW (≈6,1 cv). Motor na roda traseira (hub motor). ([InsideEVs Brasil][1])
-> **Velocidade máxima:** ~60 km/h (faixa típica para scooter urbano elétrico). ([cleanscooter.in][2])
-> **Baterias:** sistema com baterias de lítio (swap/removíveis em alguns modelos), possibilidade de 1 ou 2 baterias para maior autonomia. Tempo de carga ~5 h (varia conforme carregador). ([Retroev][3])
-> **Autonomia:** ~100 km com 1 bateria em velocidade média baixa (~35 km/h); até ~180 km com 2 baterias (valores informados por testes e ficha técnica de imprensa — uso urbano e condições controladas). ([GARAGEM 360][4])
-> **Peso (curb):** ~98 kg (varia por versão). ([GARAGEM 360][4])
-> **Rodas / Pneus:** 120/70 R12 (dado reportado por fichas). ([GARAGEM 360][4])
-> **Freios:** disco (normalmente dianteiro e/ou traseiro conforme versão). ([GARAGEM 360][4])
-> **Dimensões (reportadas):** comprimento ~1.880 mm, largura 800 mm, altura 1.300 mm, entre-eixos ~1.380 mm. ([GARAGEM 360][4])
-> **Preço de referência (Brasil):** a partir de ~R$ 15.890 em anúncios/lançamentos (sujeito a promoções, versões e época). ([GARAGEM 360][4])
-
----
-
-## Recursos e conveniência
-
-* Painel digital / conectividade Bluetooth / app (versões recentes anunciam conectividade para telemetria e recursos). ([Agora Motor][5])
-* Porta-objetos/USB e compartimentos práticos citados em reviews. ([cleanscooter.in][2])
-* Função “ré” eletrônica (inverter polaridade do motor em baixa velocidade) presente em algumas versões. ([InsideEVs Brasil][1])
+| Característica | Detalhe |
+| :--- | :--- |
+| **Tipo de Veículo** | Scooter Elétrica |
+| **Potência Nominal** | 3.000W |
+| **Pico de Potência** | 4.500W (em algumas versões) |
+| **Velocidade Máxima** | 75 km/h (prometida pelo fabricante) |
+| **Aceleração (0 a 60 km/h)** | Aprox. 12 segundos |
+| **Autonomia (1 Bateria)** | Até 100 km (média de 35 km/h) |
+| **Autonomia (2 Baterias)** | Até 180 km (média de 35 km/h) |
+| **Bateria** | Íons de Lítio, 60V (16S) / 38.4Ah |
+| **Peso da Bateria** | 13 kg (cada) |
+| **Tempo de Recarga** | Aprox. 5 horas (em carregador bivolt) |
+| **Modos de Condução** | 3 Modos (Econômico, Dia-a-dia, Potência Máxima) + Função Ré |
+| **Peso do Veículo** | 120 kg (com 1 bateria) / 133 kg (com 2 baterias) |
+| **Carga Máxima** | 180 kg |
 
 ---
+## 🔋 Dicas de Uso e Autonomia
 
-## Relatos de proprietários e pontos críticos
+### Modos de Pilotagem
+A EV1 Sport possui 3 modos de condução que limitam a velocidade, impactando diretamente no consumo de bateria:
 
-* **Bateria e logística:** vídeos e relatos mostram que baterias são ponto sensível — alguns proprietários relataram problemas e trocas, além de atrasos/entregas na fase inicial.
+| Modo | Velocidade Média/Máxima Aproximada | Prioridade | Dica de Uso |
+| :--- | :--- | :--- | :--- |
+| **Modo 1 (Econômico)** | 35-40 km/h | Máxima Autonomia | Ideal para trânsito lento, bairros e para espremer os últimos km da bateria. |
+| **Modo 2 (Dia-a-dia)** | 55 km/h | Equilíbrio | Perfeito para vias urbanas com velocidade moderada. |
+| **Modo 3 (Potência Máxima)** | 75 km/h | Desempenho | Usado para ultrapassagens ou vias rápidas. *Gasta mais bateria.* |
+| **Marcha Ré (R)** | Baixa Velocidade | Manobras | Útil para tirar a scooter de vagas apertadas ou subidas leves. |
 
-[1]: https://insideevs.uol.com.br/reviews/614312/avaliacao-voltz-ev1-sport/?utm_source=chatgpt.com "Teste rápido Voltz EV1 Sport: agora vale a pena ter uma moto ..."
-[2]: https://cleanscooter.in/voltz-motors-ev-01/?utm_source=chatgpt.com "Voltz Motors EV1 - Electric Scooter 2025 - 🇮🇳 India"
-[3]: https://retroev.in/worldevpreview.php?id=626&type=Scooter&utm_source=chatgpt.com "Voltz Motors EV1 Sport"
-[4]: https://garagem360.com.br/voltz-ev1-sport-2024/?utm_source=chatgpt.com "Voltz EV1 Sport 2024: ficha técnica, preço e itens de série"
-[5]: https://www.motoragora.com.br/voltz-ev1-sport-2025/?utm_source=chatgpt.com "Voltz EV1 Sport 2025: Motor, Características, Fotos e Ficha ..."
+### Dicas de Carregamento da Bateria
+* **Recarga em Local Arejado:** Carregue as baterias em locais bem ventilados para evitar superaquecimento.
+* **Carregador Padrão:** Use sempre o carregador fornecido pela Voltz ou outro que siga o padrão da fabricante para preservar a vida útil da bateria.
+* **Evite Descarga Total:** Tente evitar que a bateria atinja 0% de carga. Recargas mais frequentes entre 20% e 80% são ideais para a longevidade da célula de Lítio.
+
+### Painel e Funções
+* O painel digital mostra a **capacidade da bateria em porcentagem** (individualmente, se houver duas), modo de pilotagem, velocidade, hodômetro total (ODO) e parcial (TRIP).
+* Alguns painéis da EV1 Sport não têm relógio de hora, o que se parece com a hora é, na verdade, o **tempo de uso** da moto ligado no dia, que zera ao desligar.
+* **Bluetooth:** A scooter possui conexão Bluetooth, que pode ser usada para ouvir música ou comandos de voz durante a pilotagem.
+
+---
+## 🛠️ Manutenção Geral
+
+A manutenção de uma moto elétrica é mais simples do que a de uma moto a combustão, mas alguns pontos são cruciais:
+
+* **Baterias:** Verifique regularmente se os encaixes e travas das baterias estão seguros.
+* **Pneus:** Mantenha a calibragem dos pneus correta para garantir segurança e preservar a autonomia (pneus murchos aumentam o consumo de energia).
+* **Freios:** Scooter elétrica não tem freio motor forte, então os freios (a disco) são muito exigidos. Verifique o estado das pastilhas e do sistema de freio regularmente.
+* **Motor (Hub):** O motor fica na roda traseira (motor de cubo/hub). Evite pilotar em locais com água acima do eixo da roda para prevenir danos e oxidação no motor e nas peças internas.
+* **Limpeza:** Pode ser lavada, mas com cuidado. Evite jatos de água de alta pressão diretamente no motor, bateria e componentes elétricos.
+
+---
+## ⚙️ Peças Compatíveis e Adaptações (Dicas da Comunidade)
+
+A busca por peças genéricas ou adaptáveis é comum para reduzir custos e aumentar a facilidade de encontrar substitutos no mercado.
+
+### Componentes de Desgaste (Fácil Encontro)
+
+| Peça | Modelo Compatível / Genérico | Observação |
+| :--- | :--- | :--- |
+| **Pastilhas de Freio (Dianteira e Traseira)** | Modelos da **Cobreq** ou outras marcas específicas para a EV1 Sport/EV1 são amplamente encontradas online. | Verifique o código/referência da pastilha. Para a EV1 Sport, são amplas as opções de marcas. |
+| **Pneus** | Pneus de aro e medidas equivalentes a scooters (Ex: 110/70-12 ou 120/70-12). | Consulte o manual ou a informação gravada no pneu da sua scooter para as medidas exatas. |
+
+### Adaptações Comuns (Por Responsabilidade do Proprietário)
+
+| Peça | Adaptação Sugerida | Objetivo |
+| :--- | :--- | :--- |
+| **Baterias** | Baterias de Lítio customizadas, não originais. | Aumento da autonomia ou substituição com menor custo. **Pode exigir desbloqueio da moto e uso de um BMS (Battery Management System) compatível.** |
+| **Pedaleira** | Pedaleiras da **Yamaha Fazer 250** (em algumas adaptações da EVS, que é similar). | Pode oferecer maior resistência ou estética diferente da original. |
+| **Upgrade de Módulo** | Kits de upgrade com Módulo (Controladora) Votol e Painel/Chicote. | Aumentar a potência e/ou a velocidade máxima da scooter. **(Anula a garantia e deve ser feito por técnicos especializados).** |
+
+***
