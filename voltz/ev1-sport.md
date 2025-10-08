@@ -56,6 +56,31 @@ A manutenção de uma moto elétrica é mais simples do que a de uma moto a comb
 * **Limpeza:** Pode ser lavada, mas com cuidado. Evite jatos de água de alta pressão diretamente no motor, bateria e componentes elétricos.
 
 ---
+## 🔩 Peças Compatíveis (Genéricas/Adaptações)
+
+As peças listadas abaixo são genéricas, adaptáveis ou possuem a mesma especificação de modelos de outras motos a combustão, facilitando a manutenção e a busca por reposição.
+
+| Peça | Modelo Compatível / Especificação | Observação | Fonte (Vídeo) |
+| :--- | :--- | :--- | :--- |
+| **Pastilha de Freio Dianteiro** | Honda PCX (Modelos 2013-2014) | Fácil de trocar após remover os parafusos da pinça. | [00:00:16] |
+| **Pastilha de Freio Traseiro** | Honda Lead 110 (Pastilha Dianteira) | Encaixe simples e fácil de desmontar. | [00:00:46] |
+| **Manete de Freio (Direito e Esquerdo)** | Yamaha NMAX ou Honda PCX (Modelos de freio a disco) | Verificar se a PCX é modelo novo (as antigas usam lona). | [00:02:17] |
+| **Retentor do Motor (Lado Direito)** | 25 x 50 x 7 | Medida do retentor. | [00:01:06] |
+| **Retentor do Motor (Lado Esquerdo)** | 35 x 55 x 7 | Medida do retentor. | [00:01:17] |
+| **Retentores da Bengala** | Yamaha RD 135 | Informação fornecida pela Voltz (aguardando confirmação do autor). | [00:01:27] |
+| **Óleo da Bengala** | 10W20 (98 ml em cada lado) | Conforme manual do proprietário. | [00:01:34] |
+| **Pneu Dianteiro (Original)** | 120/70 (Aro 12) | O modelo Sport utiliza aro 12. | [00:01:42] |
+| **Pneu Traseiro (Adaptação)** | 90/90 (Lead 110) | O pneu original é 120/70. O 90/90 da Lead deixa a moto um pouco mais alta. | [00:01:55] |
+| **Lâmpada da Placa** | Pingo Padrão T10 | A que vem de fábrica não é LED. | [00:03:18] |
+| **Bateria (Apar. Compatível)** | Shineray | Não testado no vídeo (garantia). | [00:02:49] |
+
+**Peças Sem Compatibilidade Confirmada (Segundo o Vídeo):**
+* Cabo de Embreagem (Não compatível com Burgman) [00:02:37]
+* Caixa de Direção (Não desmontada) [00:02:59]
+* Disco Dianteiro e Traseiro (Parecido com o de 3 furos de outras motos, mas não confirmado) [00:03:09]
+* Rolamento das Rodas (Medidas não disponíveis) [00:03:35]
+
+---
 ## 🔒 Segurança e Adaptações Eletrônicas (Alarme Bluetooth)
 
 O vídeo [ADAPTANDO ALARME NA VOLTZ EVS! - LIGANDO A MOTO PELO BLUETOOTH](https://www.youtube.com/watch?v=rC7xJdZWgXE&t=123s) detalha a instalação de um alarme com conectividade **Bluetooth**, que permite controlar a Voltz EV1 Sport/EVS através de um aplicativo de celular.
