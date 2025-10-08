@@ -83,23 +83,24 @@ A ligação é feita no chicote do alarme original da moto (localizado sob os pl
 * Os fios **Marrom** e **Amarelo** do alarme adaptado geralmente **não são utilizados**.
 
 ---
-## ⚙️ Peças Compatíveis e Adaptações (Dicas da Comunidade)
+## ⚙️ Remapeamento e Customização (Controladora Votol)
 
-A busca por peças genéricas ou adaptáveis é comum para reduzir custos e aumentar a facilidade de encontrar substitutos no mercado.
+O vídeo [REMAP na EV1 SPORT com piloto automatico, Freio regenerativo e mais velocidade!](https://www.youtube.com/watch?v=DFz0V_Sv3QM) demonstra como reprogramar o módulo (controladora) da EV1 Sport (geralmente Votol/Aima X6 Pro) para alterar parâmetros de performance e ativar funções avançadas.
 
-### Componentes de Desgaste (Fácil Encontro)
+### ⚠️ ALERTA DE SEGURANÇA E GARANTIA
 
-| Peça | Modelo Compatível / Genérico | Observação |
+A reprogramação da controladora é um procedimento avançado que pode **danificar permanentemente o módulo** se feito incorretamente. Além disso, **anula a garantia** do veículo.
+
+* **Regra Crítica:** **NUNCA** ligue a controladora para reprogramação com a bateria da moto conectada. O processo deve ser feito com a controladora conectada apenas ao computador (via adaptador CH340G), sob risco de pane no módulo [00:00:56].
+
+### Parâmetros e Funcionalidades Customizáveis
+
+O remapeamento permite ajustar a performance da moto além das configurações de fábrica:
+
+| Parâmetro | Ajuste | Efeito |
 | :--- | :--- | :--- |
-| **Pastilhas de Freio (Dianteira e Traseira)** | Modelos da **Cobreq** ou outras marcas específicas para a EV1 Sport/EV1 são amplamente encontradas online. | Verifique o código/referência da pastilha. Para a EV1 Sport, são amplas as opções de marcas. |
-| **Pneus** | Pneus de aro e medidas equivalentes a scooters (Ex: 110/70-12 ou 120/70-12). | Consulte o manual ou a informação gravada no pneu da sua scooter para as medidas exatas. |
-
-### Adaptações Comuns (Por Responsabilidade do Proprietário)
-
-| Peça | Adaptação Sugerida | Objetivo |
-| :--- | :--- | :--- |
-| **Baterias** | Baterias de Lítio customizadas, não originais. | Aumento da autonomia ou substituição com menor custo. **Pode exigir desbloqueio da moto e uso de um BMS (Battery Management System) compatível.** |
-| **Pedaleira** | Pedaleiras da **Yamaha Fazer 250** (em algumas adaptações da EVS, que é similar). | Pode oferecer maior resistência ou estética diferente da original. |
-| **Upgrade de Módulo** | Kits de upgrade com Módulo (Controladora) Votol e Painel/Chicote. | Aumentar a potência e/ou a velocidade máxima da scooter. **(Anula a garantia e deve ser feito por técnicos especializados).** |
-
-***
+| **Máximo RPM (Rotação do Motor)** | Aumentar o valor em RPM (rotações por minuto). | **Aumenta a velocidade máxima** final da scooter [00:02:27]. |
+| **Amperagem Máxima (Corrente do Motor)** | Aumentar o valor (por exemplo, de 80A para 120A). | **Aumenta o torque e a força** de saída (aceleração). *Aumenta o consumo e o aquecimento do motor* [00:03:14]. |
+| **Modos de Pilotagem (1, 2, 3)** | Definir a porcentagem de RPM e Amperagem Máxima para cada modo. | Permite customizar a potência e a velocidade de cada modo. Ex: Modo 1 (Econômico) pode ser reconfigurado para ser mais rápido ou mais econômico [00:04:43]. |
+| **Freio Regenerativo (EBS)** | Aumentar a Amperagem Máxima de Recarga (valor de EBS). | Aumenta a intensidade da frenagem regenerativa. **Reduz o desgaste das pastilhas** e carrega a bateria mais rapidamente durante a desaceleração [00:08:02]. |
+| **Piloto Automático (Cruise Control)** | Mapear a função "Cruise" (Piloto Automático) para um botão Funck (Geralmente o botão "Ré") [00:
