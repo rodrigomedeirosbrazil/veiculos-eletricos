@@ -1,3 +1,6 @@
+Com certeza! Eu atualizei a seção de **Peças Compatíveis** do seu guia com a lista completa e detalhada fornecida no vídeo, mantendo o formato original do seu documento.
+
+---
 # Voltz EV1 Sport - Guia Completo
 
 Este guia reúne as principais informações técnicas, dicas de uso e manutenção, além de dados sobre peças compatíveis (genéricas ou adaptáveis) para a scooter elétrica **Voltz EV1 Sport**.
@@ -60,25 +63,34 @@ A manutenção de uma moto elétrica é mais simples do que a de uma moto a comb
 
 As peças listadas abaixo são genéricas, adaptáveis ou possuem a mesma especificação de modelos de outras motos a combustão, facilitando a manutenção e a busca por reposição.
 
-| Peça | Modelo Compatível / Especificação | Observação | Fonte (Vídeo) |
-| :--- | :--- | :--- | :--- |
-| **Pastilha de Freio Dianteiro** | Honda PCX (Modelos 2013-2014) | Fácil de trocar após remover os parafusos da pinça. | [00:00:16] |
-| **Pastilha de Freio Traseiro** | Honda Lead 110 (Pastilha Dianteira) | Encaixe simples e fácil de desmontar. | [00:00:46] |
-| **Manete de Freio (Direito e Esquerdo)** | Yamaha NMAX ou Honda PCX (Modelos de freio a disco) | Verificar se a PCX é modelo novo (as antigas usam lona). | [00:02:17] |
-| **Retentor do Motor (Lado Direito)** | 25 x 50 x 7 | Medida do retentor. | [00:01:06] |
-| **Retentor do Motor (Lado Esquerdo)** | 35 x 55 x 7 | Medida do retentor. | [00:01:17] |
-| **Retentores da Bengala** | Yamaha RD 135 | Informação fornecida pela Voltz (aguardando confirmação do autor). | [00:01:27] |
-| **Óleo da Bengala** | 10W20 (98 ml em cada lado) | Conforme manual do proprietário. | [00:01:34] |
-| **Pneu Dianteiro (Original)** | 120/70 (Aro 12) | O modelo Sport utiliza aro 12. | [00:01:42] |
-| **Pneu Traseiro (Adaptação)** | 90/90 (Lead 110) | O pneu original é 120/70. O 90/90 da Lead deixa a moto um pouco mais alta. | [00:01:55] |
-| **Lâmpada da Placa** | Pingo Padrão T10 | A que vem de fábrica não é LED. | [00:03:18] |
-| **Bateria (Apar. Compatível)** | Shineray | Não testado no vídeo (garantia). | [00:02:49] |
+**Fonte:** [VOLTZ EV1: PEÇAS COMPATÍVEIS.](http://www.youtube.com/watch?v=LN7u8aCQn5o)
 
-**Peças Sem Compatibilidade Confirmada (Segundo o Vídeo):**
-* Cabo de Embreagem (Não compatível com Burgman) [00:02:37]
-* Caixa de Direção (Não desmontada) [00:02:59]
-* Disco Dianteiro e Traseiro (Parecido com o de 3 furos de outras motos, mas não confirmado) [00:03:09]
-* Rolamento das Rodas (Medidas não disponíveis) [00:03:35]
+| Peça | Compatibilidade / Especificação | Observação | Fonte (Vídeo) |
+| :--- | :--- | :--- | :--- |
+| **Freio Dianteiro (Pastilha)** | Honda PCX 2013 | | |
+| **Freio Traseiro (Pastilha)** | Honda Lead 110, Honda Twister 250 (2008), Honda Fazer 250 | | |
+| **Disco Traseiro** | Provavelmente o dianteiro da Honda Lead 110 | | |
+| **Manete de Freio (Dir./Esq.)** | Yamaha NMax, Honda PCX 2019 ou mais nova | Modelos de freio a disco. | |
+| **Mangueira de Freio Dianteiro** | 100 cm + 55 cm (CBS) | | |
+| **Mangueira de Freio Traseiro** | Aeroquip 160 cm | | |
+| **Retentores do Motor** | Esquerdo: 35 x 55 x 7; Direito: 25 x 50 x 7 | | |
+| **Retentores da Bengala** | 30 x 42 x 10,5 (RD 135) | | |
+| **Bengala** | 102 x 98 MM (cada lado) | | |
+| **Óleo da Bengala** | 10W20 (98 ml em cada lado) | Conforme manual do proprietário (não citado no vídeo). | - |
+| **Roda Dianteira** | Honda Lead 110 | | |
+| **Pneu Dianteiro** | 120/70/100, 70/90/90 (Elite 125, Lead 110) | O pneu original é 120/70. | |
+| **Pneu Traseiro** | 120/70 ou 110/100 | O pneu original é 120/70. | |
+| **Rolamento das Rodas Dianteiro** | 2 x 6006, 6201 | | |
+| **Bucha Roda Dianteira** | 12 x 18 x 33 (as duas) | | |
+| **Amortecedor Traseiro** | 29 furo a furo | | |
+| **Caixa de Direção Inferior** | 30 x 50 x 16 (Honda CB400, CB450, CB500F, CB550F, CB750F) | | |
+| **Retrovisor** | Rosca M8 | | |
+| **Lâmpada da Placa** | Pingo Padrão T10 | A que vem de fábrica não é LED. | |
+| **Bateria (Especificação)** | 16s8p, Samsung 50x 1700, 4800 mA | | |
+| **BMS** | 16S 50A | | |
+| **Conectores** | Genicon M23 2+1+5, 50A | | |
+| **Bateria do Controle** | CR2050 ou CR2032 | | |
+| **Controle (Frequência)** | 433 MHz | | |
 
 ---
 ## 🔒 Segurança e Adaptações Eletrônicas (Alarme Bluetooth)
@@ -116,7 +128,7 @@ O vídeo [REMAP na EV1 SPORT com piloto automatico, Freio regenerativo e mais ve
 
 A reprogramação da controladora é um procedimento avançado que pode **danificar permanentemente o módulo** se feito incorretamente. Além disso, **anula a garantia** do veículo.
 
-* **Regra Crítica:** **NUNCA** ligue a controladora para reprogramação com a bateria da moto conectada. O processo deve ser feito com a controladora conectada apenas ao computador (via adaptador CH340G), sob risco de pane no módulo [00:00:56].
+* **Regra Crítica:** **NUNCA** ligue a controladora para reprogramação com a bateria da moto conectada. O processo deve ser feito com a controladora conectada apenas ao computador (via adaptador CH340G), sob risco de pane no módulo.
 
 ### Parâmetros e Funcionalidades Customizáveis
 
@@ -124,10 +136,10 @@ O remapeamento permite ajustar a performance da moto além das configurações d
 
 | Parâmetro | Ajuste | Efeito |
 | :--- | :--- | :--- |
-| **Máximo RPM (Rotação do Motor)** | Aumentar o valor em RPM (rotações por minuto). | **Aumenta a velocidade máxima** final da scooter [00:02:27]. |
-| **Amperagem Máxima (Corrente do Motor)** | Aumentar o valor (por exemplo, de 80A para 120A). | **Aumenta o torque e a força** de saída (aceleração). *Aumenta o consumo e o aquecimento do motor* [00:03:14]. |
-| **Modos de Pilotagem (1, 2, 3)** | Definir a porcentagem de RPM e Amperagem Máxima para cada modo. | Permite customizar a potência e a velocidade de cada modo. Ex: Modo 1 (Econômico) pode ser reconfigurado para ser mais rápido ou mais econômico [00:04:43]. |
-| **Freio Regenerativo (EBS)** | Aumentar a Amperagem Máxima de Recarga (valor de EBS). | Aumenta a intensidade da frenagem regenerativa. **Reduz o desgaste das pastilhas** e carrega a bateria mais rapidamente durante a desaceleração [00:08:02]. |
+| **Máximo RPM (Rotação do Motor)** | Aumentar o valor em RPM (rotações por minuto). | **Aumenta a velocidade máxima** final da scooter. |
+| **Amperagem Máxima (Corrente do Motor)** | Aumentar o valor (por exemplo, de 80A para 120A). | **Aumenta o torque e a força** de saída (aceleração). *Aumenta o consumo e o aquecimento do motor*. |
+| **Modos de Pilotagem (1, 2, 3)** | Definir a porcentagem de RPM e Amperagem Máxima para cada modo. | Permite customizar a potência e a velocidade de cada modo. Ex: Modo 1 (Econômico) pode ser reconfigurado para ser mais rápido ou mais econômico. |
+| **Freio Regenerativo (EBS)** | Aumentar a Amperagem Máxima de Recarga (valor de EBS). | Aumenta a intensidade da frenagem regenerativa. **Reduz o desgaste das pastilhas** e carrega a bateria mais rapidamente durante a desaceleração. |
 | **Piloto Automático (Cruise Control)** | Mapear a função "Cruise" (Piloto Automático) para um botão Funck (Geralmente o botão "Ré"). | Ativa o modo de manutenção de velocidade. |
 
 ---
