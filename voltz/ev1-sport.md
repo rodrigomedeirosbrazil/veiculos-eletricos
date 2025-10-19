@@ -1,6 +1,3 @@
-Com certeza! Eu atualizei a seção de **Peças Compatíveis** do seu guia com a lista completa e detalhada fornecida no vídeo, mantendo o formato original do seu documento.
-
----
 # Voltz EV1 Sport - Guia Completo
 
 Este guia reúne as principais informações técnicas, dicas de uso e manutenção, além de dados sobre peças compatíveis (genéricas ou adaptáveis) para a scooter elétrica **Voltz EV1 Sport**.
@@ -152,3 +149,114 @@ O diagrama elétrico (ou esquema de fiação) é um recurso essencial para manut
 * **Link para o Diagrama:** [Diagrama Elétrico Voltz EV1 Sport](https://pt.scribd.com/document/897866750/Diagrama-Ev1-Sport)
 
 **Atenção:** Este diagrama pode ser específico para determinadas versões da scooter. Use-o com cautela e verifique as cores dos fios na sua moto antes de realizar qualquer modificação.
+
+
+# 🏍️ Voltz EV1 Sport — Documentação Técnica da Rede CANBUS
+
+A Voltz EV1 possui um barramento CAN (Controller Area Network) que interliga os principais módulos eletrônicos da moto, permitindo a troca de dados em tempo real entre BMS, MCU, BCU e painel.
+
+---
+
+## 📡 Rede CANBUS — Voltz EV1 Sport
+
+### 📋 IDs de Frames Identificados
+
+| Módulo/Fonte       | ID (hex) | Tipo de Frame | Descrição |
+|--------------------|-----------|----------------|------------|
+| **BCU (Battery Control Unit)** | `0x226` | Standard | Envia informações sobre tensão da bateria, temperatura e SoC. |
+| **BMS (Battery Management System)** | `0x22A` | Standard | Transmite dados detalhados da bateria: corrente, tensão e estado de carga. |
+| **MCU (Motor Control Unit)** | `0x6A0` | Standard | Fornece status do controlador, corrente do motor e rotação (RPM). |
+| **Driving Mode** | `0x6A1` | Standard | Indica o modo de condução atual: Eco, Normal, Sport ou Reverse. |
+
+#### 📤 Estrutura dos frames conhecidos
+
+##### **0x22A — BMS Battery**
+| Byte(s) | Tipo | Descrição |
+|----------|------|------------|
+| 0–1 | `int16` (little-endian) | Corrente ×10 (ex.: 123 → 12.3 A) |
+| 2–3 | `uint16` (little-endian) | Tensão ×100 (ex.: 6342 → 63.42 V) |
+| 4 | `uint8` | SoC (%) |
+| 5–7 | — | Reservado |
+
+##### **0x226 — BCU**
+| Byte(s) | Tipo | Descrição |
+|----------|------|------------|
+| 0–1 | `uint16` | Flags de status |
+| 2–3 | `uint16` (little-endian) | Tensão ×100 |
+| 4 | `int8` | Temperatura (°C) |
+| 5 | `uint8` | SoC (%) |
+| 6–7 | `uint16` | Códigos de erro / status adicional |
+
+##### **0x6A0 — MCU Motor**
+| Byte(s) | Tipo | Descrição |
+|----------|------|------------|
+| 0 | `uint8` | Status do controlador |
+| 2–3 | `int16` (little-endian) | Corrente do motor |
+| 4–5 | `int16` (little-endian) | RPM |
+
+##### **0x6A1 — Driving Mode**
+| Byte | Valor | Modo |
+|------|--------|------|
+| 0 | `0x01` | Eco |
+| 0 | `0x02` | Normal |
+| 0 | `0x03` | Sport |
+| 0 | `0x80` | Ré |
+| outros | — | Desconhecido |
+
+---
+
+## ⚙️ Código de Captura
+
+Os dados foram coletados com o seguinte código Arduino, utilizando o módulo MCP2515 (500 kbps, 8 MHz):
+
+📄 [`main.cpp`](./main.cpp) — Exemplo de código usado para escutar e decodificar os frames CAN e enviar mensagens de simulação para teste dos módulos.
+
+---
+
+## 🔌 Conector CAN — M25 (2 + 1 + 5 pinos)
+
+A EV1 utiliza um conector redondo **M25** com a seguinte pinagem observada:
+
+```
+             (vista frontal - pinos do conector macho)
+                       ___________
+                     /             \
+                    |     2   3     |
+                    | 1           4 |    
+                    |       5       |     
+                    |    6     7    |  ← Pinos grandes (alimentação principal)
+                     \      8      /  
+                      \___________/
+
+Legenda:
+  1 - Não conectado (NC)
+  2 - CAN High (H)
+  3 - CAN Low (L)
+  4 - + (positivo da bateria)
+  5 - Não conectado (NC)
+  6 - positivo da bateria/carga
+  7 - GND / negativo
+  8 - Não conectado (NC)
+
+```
+
+| Pino | Função | Descrição |
+|------|---------|------------|
+| 1 | **+** | Alimentação positiva da bateria |
+| 2 | **CAN High (H)** | Linha de dados CAN alta |
+| 3 | **CAN Low (L)** | Linha de dados CAN baixa |
+| 4 | **− (GND)** | Terra / negativo |
+| 5 | **VCC** | Mesmo nível do positivo (+), usado como referência |
+
+📸 *(foto de referência com marcações manuais)*  
+![Conector M25 CAN EV1](fa99588c-efbc-4b76-981f-983903766613.jpeg)
+
+---
+
+## 🧩 Observações
+- O barramento opera a **500 kbps**, padrão automotivo.  
+- Os frames capturados até o momento são todos **standard (11 bits)**, não estendidos.  
+- O sistema BMS envia dados aproximadamente a cada **110 ms**, conforme observado no log e no código de simulação.  
+- O pino **VCC** no conector apresenta a mesma tensão do positivo da bateria (usado como sense ou referência de alimentação).
+
+---
